@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- <copyright file="AndroidManifest.xml" company="Microsoft">
+	Copyright (c) Microsoft. All rights reserved.	
+</copyright> -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.microsoft.intune.samples.maui">
+	<application android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true"></application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34" />
+</manifest>

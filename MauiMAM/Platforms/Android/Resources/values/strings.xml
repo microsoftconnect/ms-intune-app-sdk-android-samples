@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- <copyright file="strings.xml" company="Microsoft">
+	Copyright (c) Microsoft. All rights reserved.	
+</copyright> -->
+<resources>
+	<!-- Authentication -->
+	<string name="err_auth">Authentication error: %s</string>
+	<string name="auth_out_success">Successfully signed out</string>
+
+	<!-- MAM Policy -->
+	<string name="err_blocked">You are blocked, please do not proceed! Reason: %s</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- <copyright file="MenuPage.xaml" company="Microsoft">
+	Copyright (c) Microsoft. All rights reserved.	
+</copyright> -->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiMAM.Views.MenuPage"
+             Title="MenuPage">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="10"
+            Spacing="10" >
+
+            <Button
+                x:Name="SignOutBtn"
+                Text="Sign Out" 
+                SemanticProperties.Hint="Sign Out"
+                Clicked="OnSignOutClicked"
+                HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
